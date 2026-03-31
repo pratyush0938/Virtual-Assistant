@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: "https://virtual-assistant-1-xhbd.onrender.com",
     credentials: true,
   }),
 );
